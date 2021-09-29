@@ -1,0 +1,16 @@
+{
+	"name": "AGSM Dev Tools",
+	"description": "Extension for debugging AGSM events",
+	"version": "0.0.1",
+	"manifest_version": 3,
+	"externally_connectable": {
+		"ids": ["*"],
+		"matches": ["*://localhost/*", "*://127.0.0.1/*"],
+		"accepts_tls_channel_id": true
+	},
+	"background": {
+		"service_worker": "background.js"
+	},
+	"devtools_page": "html/agsm_devtools.html",
+	"permissions": ["storage", "tabs"]
+}

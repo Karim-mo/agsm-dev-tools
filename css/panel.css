@@ -1,0 +1,89 @@
+body {
+	color: white;
+	overflow: hidden;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	font-family: 'Courier New', Courier, monospace;
+	background-color: rgb(53, 59, 70);
+	min-height: 99%;
+	max-height: 99%;
+	border: 1px solid rgb(53, 59, 70);
+	border-radius: 10px;
+}
+
+.table {
+	padding: 20px;
+	flex: 1;
+	border: 1px solid darkgray;
+	border-radius: 10px;
+}
+.tree {
+	/* padding: 20px; */
+	flex: 2;
+	border: 1px solid darkgray;
+	border-radius: 10px;
+}
+.table-container {
+	height: 99%;
+	overflow: auto;
+}
+
+.tree-container {
+	height: 99%;
+	overflow: auto;
+}
+
+table {
+	/* float: left; */
+	border-collapse: collapse;
+	/* border: 2px solid rgb(173, 170, 170); */
+	width: 100%;
+
+	text-align: left;
+
+	/* width: 30%; */
+}
+
+table tr {
+	cursor: pointer;
+}
+
+table td {
+	padding: 10px;
+	border-bottom: 1px solid darkgray;
+	/* border-left: 1px solid darkgray; */
+	/* border-right: 1px solid darkgray; */
+
+	/* border-radius: 10px; */
+	text-align: left;
+}
+
+.header {
+	padding-top: 10px;
+	padding-left: 5px;
+	display: flex;
+	border-bottom: 1px solid darkgray;
+	padding-bottom: 10px;
+	font-size: 18px;
+	/* background-color: rgb(76, 84, 100); */
+}
+
+.H1 {
+	margin-right: 10px;
+	border: 1px solid darkgray;
+	background-color: darkgray;
+	padding: 10px;
+	cursor: pointer;
+	/* border-right: 1px solid darkgray; */
+}
+
+.H2 {
+	/* margin-left: 10px; */
+	background-color: darkgray;
+	border: 1px solid darkgray;
+	padding: 10px;
+	cursor: pointer;
+}
