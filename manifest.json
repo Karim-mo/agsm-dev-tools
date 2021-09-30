@@ -12,5 +12,5 @@
 		"service_worker": "background.js"
 	},
 	"devtools_page": "html/agsm_devtools.html",
-	"permissions": ["storage", "tabs"]
+	"permissions": ["storage"]
 }
